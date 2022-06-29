@@ -1,0 +1,35 @@
+{
+	"name": "fresh-critters",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "🦔 FreshJS GoogleChromeLabs critters integration. Inline your critical CSS with Fresh.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nhristov/fresh-critters.git"
+	},
+	"homepage": "https://github.com/nhristov/fresh-critters#readme",
+	"bugs": {
+		"url": "https://github.com/nhristov/fresh-critters/issues"
+	},
+	"author": "Nikola Hristov <nikola@playform.cloud>",
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"keywords": [
+		"critters",
+		"css",
+		"performance"
+	],
+	"scripts": {
+		"build": "esbuild --format=esm --platform=node --target=node14 --sources-content=false --minify --outdir=dist src/index.ts && tsc"
+	},
+	"dependencies": {
+		"critters": "0.0.16",
+		"fast-glob": "3.2.11"
+	},
+	"devDependencies": {
+		"@types/node": "18.0.0",
+		"esbuild": "0.14.47",
+		"typescript": "4.7.4"
+	}
+}
