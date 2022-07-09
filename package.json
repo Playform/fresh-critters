@@ -5,11 +5,11 @@
 	"description": "🦔 FreshJS GoogleChromeLabs critters integration. Inline your critical CSS with Fresh.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nhristov/fresh-critters.git"
+		"url": "git+https://github.com/NicholasJoyChrist/fresh-critters.git"
 	},
-	"homepage": "https://github.com/nhristov/fresh-critters#readme",
+	"homepage": "https://github.com/NicholasJoyChrist/fresh-critters#readme",
 	"bugs": {
-		"url": "https://github.com/nhristov/fresh-critters/issues"
+		"url": "https://github.com/NicholasJoyChrist/fresh-critters/issues"
 	},
 	"author": "Nikola Hristov <nikola@playform.cloud>",
 	"license": "SEE LICENSE IN LICENSE",
